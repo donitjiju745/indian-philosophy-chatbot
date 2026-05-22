@@ -6,7 +6,7 @@ import ThreeDOrb from './components/ThreeDOrb';
 import PhilosophyChat from './components/PhilosophyChat';
 import CitationDisplay from './components/CitationDisplay';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://indian-philosophy-chatbot.vercel.app';
 
 export default function App() {
   const [questions, setQuestions] = useState([]);
