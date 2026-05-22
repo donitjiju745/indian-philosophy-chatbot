@@ -1,0 +1,308 @@
+{
+  "test_suite": {
+    "vedanta_tests": [
+      {
+        "id": "v1",
+        "question": "What is the relationship between Atman and Brahman?",
+        "tradition": "vedanta",
+        "expected_coverage": ["Tat Tvam Asi", "non-dual", "consciousness", "Chandogya Upanishad"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "v2",
+        "question": "What is Maya in Vedanta philosophy?",
+        "tradition": "vedanta",
+        "expected_coverage": ["illusion", "power", "veils", "avarana shakti", "vikshepa"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "v3",
+        "question": "Explain Moksha or Liberation",
+        "tradition": "vedanta",
+        "expected_coverage": ["liberation", "freedom", "realization", "ignorance", "Brahman"],
+        "test_type": "fuzzy_match"
+      },
+      {
+        "id": "v4",
+        "question": "What is the difference between Maya and Brahman?",
+        "tradition": "vedanta",
+        "expected_coverage": ["illusion", "reality", "temporary", "eternal"],
+        "test_type": "synthesis_query"
+      },
+      {
+        "id": "v5",
+        "question": "How does Advaita Vedanta differ from Dvaita?",
+        "tradition": "vedanta",
+        "expected_coverage": ["non-dual", "dual", "separation"],
+        "test_type": "comparison_query"
+      }
+    ],
+    "buddhism_tests": [
+      {
+        "id": "b1",
+        "question": "What are the Four Noble Truths in Buddhism?",
+        "tradition": "buddhism",
+        "expected_coverage": ["Dukkha", "Samudaya", "Nirodha", "Magga", "suffering", "craving"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "b2",
+        "question": "Explain Dependent Origination",
+        "tradition": "buddhism",
+        "expected_coverage": ["Pratityasamutpada", "interdependent", "twelve links", "ignorance"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "b3",
+        "question": "What is Sunyata or Emptiness?",
+        "tradition": "buddhism",
+        "expected_coverage": ["emptiness", "no self-nature", "anatman", "liberation"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "b4",
+        "question": "What is the difference between Hinayana and Mahayana Buddhism?",
+        "tradition": "buddhism",
+        "expected_coverage": ["vehicle", "path", "enlightenment"],
+        "test_type": "comparison_query"
+      },
+      {
+        "id": "b5",
+        "question": "Explain the Eightfold Path",
+        "tradition": "buddhism",
+        "expected_coverage": ["right view", "right intention", "suffering"],
+        "test_type": "synthesis_query"
+      },
+      {
+        "id": "b6",
+        "question": "What is Nirvana in Buddhism?",
+        "tradition": "buddhism",
+        "expected_coverage": ["cessation", "peace", "enlightenment", "craving"],
+        "test_type": "fuzzy_match"
+      }
+    ],
+    "yoga_tests": [
+      {
+        "id": "y1",
+        "question": "What are the Eight Limbs of Yoga?",
+        "tradition": "yoga",
+        "expected_coverage": ["Yama", "Niyama", "Asana", "Pranayama", "Pratyahara", "Dharana", "Dhyana", "Samadhi"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "y2",
+        "question": "What is Samadhi in Yoga philosophy?",
+        "tradition": "yoga",
+        "expected_coverage": ["absorption", "merger", "consciousness", "transcendence"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "y3",
+        "question": "Explain Pratyahara or sense withdrawal",
+        "tradition": "yoga",
+        "expected_coverage": ["withdrawal", "senses", "meditation", "internal"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "y4",
+        "question": "What is the purpose of meditation in Yoga?",
+        "tradition": "yoga",
+        "expected_coverage": ["mind", "focus", "liberation", "consciousness"],
+        "test_type": "fuzzy_match"
+      },
+      {
+        "id": "y5",
+        "question": "Explain the relationship between Asana and Pranayama",
+        "tradition": "yoga",
+        "expected_coverage": ["posture", "breathing", "preparation", "limbs"],
+        "test_type": "synthesis_query"
+      }
+    ],
+    "samkhya_tests": [
+      {
+        "id": "s1",
+        "question": "What is the Prakriti-Purusha relationship?",
+        "tradition": "samkhya",
+        "expected_coverage": ["Prakriti", "Purusha", "nature", "consciousness", "gunas"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "s2",
+        "question": "What are the three Gunas?",
+        "tradition": "samkhya",
+        "expected_coverage": ["Sattva", "Rajas", "Tamas", "purity", "activity", "inertia"],
+        "test_type": "fuzzy_match"
+      },
+      {
+        "id": "s3",
+        "question": "What is Kaivalya in Samkhya philosophy?",
+        "tradition": "samkhya",
+        "expected_coverage": ["liberation", "isolation", "recognition", "Purusha"],
+        "test_type": "fuzzy_match"
+      },
+      {
+        "id": "s4",
+        "question": "How does Samkhya explain creation?",
+        "tradition": "samkhya",
+        "expected_coverage": ["Prakriti", "manifestation", "transformation"],
+        "test_type": "synthesis_query"
+      }
+    ],
+    "nyaya_tests": [
+      {
+        "id": "n1",
+        "question": "What are the four Pramanas in Nyaya?",
+        "tradition": "nyaya",
+        "expected_coverage": ["Pratyaksha", "Anumana", "Upamana", "Sabda", "perception", "inference"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "n2",
+        "question": "What is Pratyaksha or perception?",
+        "tradition": "nyaya",
+        "expected_coverage": ["perception", "sensory", "direct", "knowledge"],
+        "test_type": "fuzzy_match"
+      },
+      {
+        "id": "n3",
+        "question": "Explain Anumana or inference logic",
+        "tradition": "nyaya",
+        "expected_coverage": ["inference", "logical", "deduction", "premises"],
+        "test_type": "fuzzy_match"
+      },
+      {
+        "id": "n4",
+        "question": "What is the importance of valid knowledge?",
+        "tradition": "nyaya",
+        "expected_coverage": ["knowledge", "pramanas", "epistemology"],
+        "test_type": "synthesis_query"
+      }
+    ],
+    "mimamsa_tests": [
+      {
+        "id": "m1",
+        "question": "What is Dharma according to Mimamsa philosophy?",
+        "tradition": "mimamsa",
+        "expected_coverage": ["duty", "ritual", "Vedic", "injunction", "Dharma"],
+        "test_type": "direct_match"
+      },
+      {
+        "id": "m2",
+        "question": "What is the role of Karma in Mimamsa?",
+        "tradition": "mimamsa",
+        "expected_coverage": ["action", "ritual", "consequences", "duty"],
+        "test_type": "fuzzy_match"
+      },
+      {
+        "id": "m3",
+        "question": "Explain Svadharma or individual duty",
+        "tradition": "mimamsa",
+        "expected_coverage": ["individual duty", "varna", "ashrama", "obligations"],
+        "test_type": "fuzzy_match"
+      },
+      {
+        "id": "m4",
+        "question": "What is Apurva in Mimamsa philosophy?",
+        "tradition": "mimamsa",
+        "expected_coverage": ["unseen power", "ritual", "merit", "consequences"],
+        "test_type": "fuzzy_match"
+      }
+    ],
+    "cross_tradition_tests": [
+      {
+        "id": "c1",
+        "question": "How do different Indian philosophies define liberation?",
+        "tradition": "general",
+        "expected_coverage": ["Moksha", "Kaivalya", "Nirvana", "freedom"],
+        "test_type": "cross_tradition"
+      },
+      {
+        "id": "c2",
+        "question": "Compare the concept of consciousness across philosophical systems",
+        "tradition": "general",
+        "expected_coverage": ["Atman", "Purusha", "Vijnana", "awareness"],
+        "test_type": "cross_tradition"
+      },
+      {
+        "id": "c3",
+        "question": "How do Vedanta and Samkhya understand reality?",
+        "tradition": "general",
+        "expected_coverage": ["non-dual", "dual", "Brahman", "Prakriti", "Purusha"],
+        "test_type": "cross_tradition"
+      },
+      {
+        "id": "c4",
+        "question": "What is the common goal of all Indian philosophical systems?",
+        "tradition": "general",
+        "expected_coverage": ["liberation", "enlightenment", "knowledge"],
+        "test_type": "cross_tradition"
+      }
+    ],
+    "edge_cases": [
+      {
+        "id": "e1",
+        "question": "What is this?",
+        "tradition": "general",
+        "expected_response": "fallback",
+        "test_type": "vague_query"
+      },
+      {
+        "id": "e2",
+        "question": "Tell me about Indian food",
+        "tradition": "general",
+        "expected_response": "redirect",
+        "test_type": "out_of_scope"
+      },
+      {
+        "id": "e3",
+        "question": "xyz abc def",
+        "tradition": "general",
+        "expected_response": "redirect",
+        "test_type": "nonsense_input"
+      },
+      {
+        "id": "e4",
+        "question": "",
+        "tradition": "general",
+        "expected_response": "error",
+        "test_type": "empty_input"
+      },
+      {
+        "id": "e5",
+        "question": "Explain Atman",
+        "tradition": "vedanta",
+        "expected_response": "fuzzy_match",
+        "test_type": "partial_match"
+      }
+    ]
+  },
+  "test_metrics": {
+    "total_tests": 39,
+    "direct_match_tests": 10,
+    "fuzzy_match_tests": 15,
+    "synthesis_tests": 6,
+    "cross_tradition_tests": 4,
+    "edge_case_tests": 5,
+    "expected_success_rate": 0.95
+  },
+  "evaluation_criteria": {
+    "answer_quality": {
+      "contains_main_concept": "Must include primary philosophical concept",
+      "citation_provided": "Must provide at least one citation",
+      "clarity": "Answer should be clear and understandable",
+      "accuracy": "Information must be accurate to Indian texts"
+    },
+    "citation_quality": {
+      "source_accuracy": "Source must be correctly identified",
+      "verse_reference": "Verse number should be precise",
+      "relevance": "Citation must directly support the answer",
+      "completeness": "Full context of citation provided"
+    },
+    "confidence_scoring": {
+      "direct_match": 0.95,
+      "fuzzy_match": 0.85,
+      "synthesis": 0.75,
+      "fallback": 0.50
+    }
+  }
+}
