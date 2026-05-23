@@ -6,7 +6,7 @@ import ThreeDOrb from './components/ThreeDOrb';
 import PhilosophyChat from './components/PhilosophyChat';
 import CitationDisplay from './components/CitationDisplay';
 
-const API_BASE_URL = 'https://indian-philosophy-chatbot.vercel.app';
+const API_BASE_URL = '';
 
 export default function App() {
   const [questions, setQuestions] = useState([]);
@@ -295,9 +295,9 @@ export default function App() {
           animate={{ y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <p>🕉️ Explore the wisdom of Indian philosophy with citations from classical texts</p>
-          <p className="api-status">✅ Backend: http://localhost:8000 | Docs: /docs</p>
-        </motion.footer>
+        <p>🕉️ Explore the wisdom of Indian philosophy with citations from classical texts</p>
+        <p className="api-status">✅ System Status: Operational | Open API: <a href="/docs" target="_blank" rel="noreferrer" style={{ color: '#4ECDC4', textDecoration: 'underline' }}>/docs</a></p>
+      </motion.footer>
       </motion.div>
     </div>
   );
