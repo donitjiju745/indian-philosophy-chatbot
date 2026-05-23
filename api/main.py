@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # ============ IMPORT KNOWLEDGE BASE ============
-from knowledge_base import (
+from .knowledge_base import (
     INDIAN_PHILOSOPHY_KB,
     get_answer_by_key,
     get_all_questions,
